@@ -66,10 +66,26 @@ ul {
 
 /* title  */
 
-.title,
-.footer {
+.title {
   background-color: #2f303a;
 }
+
+.title-name {
+  color: #ffffff;
+  font-family: var(--primary-text-style);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.363;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.title- .footer {
+  background-color: #2f303a;
+}
+
 .button {
   font-family: inherit;
   color: #ffffff;
@@ -157,6 +173,13 @@ ul {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
+}
+.logo-studio-footer {
+  color: #ffffff;
+}
+
+.footer {
+  background-color: #2f303a;
 }
 
 /* ============ PORTFOLIO =============  */
