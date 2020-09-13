@@ -1,44 +1,215 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --active-text-color: #2196f3;
+  --primary-text-style: roboto, sans-serif;
+}
+
 .page {
-  background-color: #E5E5E5;
-  color:#757575 ;
-}
-.logo {
-  color: #2196F3;
-}
-.logo-studio {
-  color: #000000;
-}
-.logo-name {
-  text-decoration-line: none;
+  background-color: #e5e5e5;
+  font-family: var(--primary-text-style);
 }
 ul {
   list-style: none;
 }
 
-/* Site-nav*/
+.header {
+  background-color: #ffffff;
+}
+
+/*NAVIGATION*/
+.logo {
+  color: var(--active-text-color);
+}
+
+.logo-studio {
+  color: #000000;
+}
+
+.logo-name {
+  text-decoration-line: none;
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192;
+}
 
 .site-nav .link {
-  color: #212121;
+  color: var(--primary-text-color);
+  text-decoration: none;
 
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
 }
-.site-nav .link:hover , 
-.site-nav .link:focus {
-  color : #2196F3
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.connection:hover,
+.connection:focus {
+  color: var(--active-text-color);
 }
- /*section*/
- .section-title {
-   color: #212121 ;
- }
- .section-name {
-   color: #212121;
- }
- .section-features {
-   color:  #212121 ;
- }
 
-/* цвет основного текста */  #757575
-/* вторичный цвет текста*/ #212121
-/*цвет фона */ #E5E5E5
-/*вторичный цвет фона*/#F5F4FA
-/*акцент*/ #2196F3
+.connection {
+  color: var(--secondary-text-color);
+  font-family: var(--primary-text-style);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
 
+/* title  */
+
+.title,
+.footer {
+  background-color: #2f303a;
+}
+.button {
+  font-family: inherit;
+  color: #ffffff;
+  background-color: var(--active-text-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+}
+.button:focus {
+  background-color: var(--active-text-color);
+}
+
+/*section-advantages*/
+
+.section-features {
+  color: var(--primary-text-color);
+  font-family: var(--primary-text-style);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.section-text {
+  color: var(--secondary-text-color);
+  font-family: var(--primary-text-style);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+}
+/* section-opportunities */
+
+.section-title {
+  color: var(--primary-text-color);
+  font-family: var(--primary-text-style);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* section-team  */
+
+.section-team {
+  background-color: #f5f4fa;
+}
+
+.section-name {
+  color: var(--primary-text-color);
+  font-family: var(--primary-text-style);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.section-position {
+  color: var(--secondary-text-color);
+  font-family: var(--primary-text-style);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/*Footer*/
+.adress {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: var(--primary-text-style);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+}
+
+/* ============ PORTFOLIO =============  */
+
+.body {
+  background-color: #e5e5e5;
+}
+
+.active {
+  color: var(--active-text-color);
+}
+
+.button-menu:hover,
+.button-menu:focus {
+  color: #ffffff;
+  background-color: var(--active-text-color);
+}
+
+.button-menu {
+  color: var(--primary-text-color);
+  font-family: inherit;
+  font-family: var(--primary-text-style);
+}
+.button-menu {
+  background-color: #f5f4fa;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* ============ examples ============= */
+
+.examples-projects {
+  color: var(--primary-text-color);
+  font-family: var(--primary-text-style);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.examples-menu {
+  color: var(--secondary-text-color);
+  font-family: var(--primary-text-style);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+}
+
+/* ================ footer ================= */
