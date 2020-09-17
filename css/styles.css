@@ -38,7 +38,7 @@ ul {
 .site-nav .link {
   color: var(--primary-text-color);
   text-decoration: none;
-
+  font-family: var(--primary-text-style);
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
